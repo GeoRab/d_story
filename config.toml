@@ -8,6 +8,9 @@
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "/"
 
+[context.production.environment]
+  HUGO_VERSION = "0.50"
+
 # Title of your site
 title = "Academic"
 
